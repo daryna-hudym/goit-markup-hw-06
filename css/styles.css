@@ -70,7 +70,6 @@ img {
 }
 
 .header-close-btn {
-    position: absolute;
     top: 16px;
     right: 16px;
     border: none;
@@ -177,7 +176,7 @@ img {
     color:#404bbf;
 }
 
-.mob-address-list {
+.mob-address {
     margin-bottom: 48px;
 }
 
@@ -200,7 +199,7 @@ img {
 
 .mob-menu-social-links {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 40px;
 }
@@ -493,6 +492,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 72px;
 }
 
 .footer-text {
@@ -501,20 +501,19 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 288px;
-    margin-bottom: 72px;
 }
 
 .social-links-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 72px;
 }
 
 .social-links-list-footer {
     display: flex;
     flex-direction: row;
     gap: 16px;
-    margin-bottom: 72px;
 }
 
 .social-text-footer {
@@ -551,7 +550,7 @@ img {
 .modal-input-footer {
     border: 1px solid #fff;
     border-radius: 4px;
-    width: 264px;
+    width: 288px;
     height: 40px;
     background-color: transparent;
     padding-left: 16px;
@@ -994,6 +993,10 @@ img {
      gap: 24px;
  }
 
+ .modal-input-footer {
+    width: 264px;
+ }
+
     /* FOOTER */
 
     /* MODAL */
@@ -1125,6 +1128,11 @@ img {
      line-height: 1.2;
      letter-spacing: 0.02em;
      color: #2e2f42;
+ }
+
+ .benefit-desc {
+    font-weight: 400;
+    color: #434455;
  }
     /* BENEFITS */
 
